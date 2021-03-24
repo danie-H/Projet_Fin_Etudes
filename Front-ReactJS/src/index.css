@@ -1,0 +1,23 @@
+@import '~react-agenda/build/styles.css';
+@import '~react-datetime/css/react-datetime.css';
+
+@font-face {
+  font-family: "sansa-pro";
+  src: url("./fonts/SansaPro-Normal.otf");
+}
+body {
+  margin: 0;
+  font-family: "sansa-pro", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #014e67 !important;
+
+}
+* {
+  font-family: "sansa-pro";
+  font-size: 10px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
